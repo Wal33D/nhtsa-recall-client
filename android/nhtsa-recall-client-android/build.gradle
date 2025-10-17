@@ -26,7 +26,8 @@ android {
 }
 
 dependencies {
-    // TODO: Publish the Java recall client as a module and wire it here (api project(':nhtsa-recall-client-java'))
+    // Java recall client module dependency
+    api project(':nhtsa-recall-client-java')
     implementation 'androidx.annotation:annotation:1.8.0'
 
     testImplementation 'junit:junit:4.13.2'
