@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=49", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nhtsa-recall-client"
+version = "0.1.0"
+description = "Python client for the NHTSA recall API, sister project to nhtsa-vin-decoder."
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+  {name = "Wal33D"}
+]
+license = {file = "LICENSE"}
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Automotive"
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/Wal33D/nhtsa-recall-client"
+Source = "https://github.com/Wal33D/nhtsa-recall-client"
+Issues = "https://github.com/Wal33D/nhtsa-recall-client/issues"
